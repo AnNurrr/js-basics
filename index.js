@@ -1,14 +1,5 @@
 
-let person = {
-    name: 'Ainur',
-    age: 19
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
 }
-// Dot notation 
-person.name = 'John';
-// Bracket notation 
-
-person['name'] = 'Mary';
-
-
-
-console.log(person.name)
+greet('Ainur', 'Emilbekova');
